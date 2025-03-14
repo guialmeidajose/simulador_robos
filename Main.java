@@ -10,6 +10,7 @@ public class Main
         testar.mover(4, 5);
         testar.imprime();
         local.dentroDosLimites(testar.x, testar.y);
-
+        testar.mover(14, 20);
+        testar.imprime();
     }
 }
